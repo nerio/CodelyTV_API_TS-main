@@ -9,4 +9,7 @@ export const loadApiEndpoints = (app: Application): void => {
 	app.get("/api1", (req: Request, res: Response) => {
 		return res.status(404).send(CoursesData);
 	});
+	app.get("/api2", (req: Request, res: Response) => {
+		return res.status(404).send(CoursesData);
+	});
 };
